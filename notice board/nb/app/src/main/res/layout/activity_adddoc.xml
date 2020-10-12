@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.endlessbay.arjun.nb.Adddoc">
+
+    <EditText
+        android:id="@+id/docname"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="121dp"
+        android:ems="10"
+        android:hint="Enter the name of document"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/urlname"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/docname"
+        android:layout_alignRight="@+id/docname"
+        android:layout_below="@+id/docname"
+        android:layout_marginTop="74dp"
+        android:ems="10"
+        android:hint="Enter URL of the document"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="113dp"
+        android:onClick="upload_doc"
+        android:text="Upload" />
+</RelativeLayout>
